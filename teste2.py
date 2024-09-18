@@ -1,5 +1,5 @@
 def somar(x, y):
-    return x + y
+    return x + x
 
 
 x = 311
