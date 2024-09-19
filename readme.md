@@ -8,6 +8,7 @@ Adicionar arquivos para o commit: git add <nome_arquivo>
 Commitar mudanças: git commit -m "Mensagem explicando as mudanças"
 Ver log de commits: git log
 Ver diferenças entre commits: git diff
+Atualizar local com github: git pull
 Enviar mudanças para github: git push
 Ver as Versões Anteriores dos Arquivos: git checkout <hash_commit>
 
