@@ -1,15 +1,10 @@
-Exercício: Sistema de Funcionários
+Implemente uma classe base chamada Animal, 
+    que tenha um método falar(). 
+    
+Crie três subclasses: Gato, Cachorro e Vaca, 
+    cada uma com sua própria implementação do método falar() 
+    
+(ex: o cachorro deve latir, o gato deve miar e a vaca deve mugir).
 
-- Crie uma classe Funcionario que tenha atributos públicos para:
-    - nome e cargo
-
-- Atributo privado para o salário
-
-- Crie uma classe Departamento que pode conter vários funcionários
-- Classe Empresa que pode conter vários departamentos
-
-- Requisitos:
-    - Atributos privados para o salário
-    - Métodos públicos para acessar e modificar o salário
-    - Relação entre classes (uma empresa tem vários departamentos, 
-                             cada departamento tem vários funcionários)
+Crie uma função chamada ouvir_animal(animal: Animal) 
+    que chame o método falar para o objeto recebido como parâmetro.

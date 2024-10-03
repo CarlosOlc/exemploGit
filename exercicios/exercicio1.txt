@@ -1,15 +1,7 @@
-Exercício: Gerenciamento de Conta Bancária
-- Crie uma classe ContaBancaria que tenha atributos privados para: 
-    - saldo e número da conta 
+Crie uma classe pai chamada Veiculo 
+    que tenha um método chamado descrever, o qual imprime "Este é um veículo". 
     
--Implemente métodos para: 
-    - depositar
-    - sacar
-    - exibir o saldo
-    
+Depois, crie duas subclasses: Carro e Moto. 
 
-- Requisitos:
-    - Atributos privados para saldo e número da conta
-    - Métodos públicos para depósito e saque
-    - Método para exibir saldo
-    - Relação entre classes (um cliente pode ter várias contas)
+Cada uma deve sobrescrever o método descrever para imprimir uma mensagem específica, 
+    como "Este é um carro" ou "Esta é uma moto".
