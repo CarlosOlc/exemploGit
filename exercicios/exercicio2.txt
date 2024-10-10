@@ -1,15 +1,7 @@
-Exercício: Sistema de Livraria
+Interface para Formas Geométricas
 
-- Crie uma classe Livro que tenha atributos públicos para: 
-    - título e autor
+- Implemente uma interface chamada FormaGeometrica com os métodos abstratos:
+    - calcular_area(): Método para calcular a área da forma.
+    - calcular_perimetro(): Método para calcular o perímetro da forma.
 
-- Atributos privados para:
-    - preço e estoque disponível 
-    
-- Crie uma classe Pedido que represente uma compra de um ou mais livros 
-- Classe Cliente para armazenar o nome e os pedidos
-
-- Requisitos:
-    - Atributos privados para preço e estoque em Livro
-    - Métodos públicos para obter preço e verificar disponibilidade
-    - Relacionamento entre classes (um cliente pode fazer vários pedidos de livros)
+- Crie classes concretas Circulo e Quadrado que implementem essa interface, com os métodos específicos para cada forma.

@@ -1,15 +1,31 @@
-Exercício: Sistema de Aluguel de Carros
+Sistema de Gerenciamento de Funcionários
+Crie um sistema de gerenciamento de funcionários para uma empresa.
 
-- Crie uma classe Carro com atributos públicos para: 
-    - marca e o modelo
-    
-- Atributos privados para: 
-    - número de quilometragem e estado (disponível ou alugado)
-    
-- Crie uma classe Cliente que pode alugar carros 
-- Classe Agencia que controla os carros disponíveis
+- Defina uma classe abstrata chamada Funcionario com os seguintes métodos abstratos:
+    - calcular_salario(): Método para calcular o salário do funcionário.
+    - exibir_informacoes(): Método para exibir as informações do funcionário.
 
-- Requisitos:
-    - Atributos privados para quilometragem e estado do carro
-    - Métodos para alugar e devolver carros
-    - Relação entre classes (um cliente pode alugar carros de uma agência)
+- Crie subclasses concretas:
+    - FuncionarioHorista: Funcionários que são pagos por hora. 
+        - devem implementar o cálculo do salário baseado nas horas trabalhadas e taxa por hora.
+    - FuncionarioMensalista: Funcionários que recebem um salário fixo mensal.
+
+- Adicione atributos como nome, id, horas_trabalhadas, e taxa_por_hora ou salario_mensal 
+    conforme o tipo de funcionário.
+
+
+Depois
+- Criar uma classe abstrata chamada Departamento com os seguintes métodos abstratos:
+    - adicionar_funcionario(funcionario): Método para adicionar um funcionário ao departamento.
+    - remover_funcionario(funcionario): Método para remover um funcionário do departamento.
+    - listar_funcionarios(): Método para listar todos os funcionários do departamento.
+
+- Crie uma subclasse concreta chamada DepartamentoRH que herde de Departamento, 
+    - e implemente os métodos abstratos.
+
+
+
+Dicas:
+
+Garanta que o sistema consiga calcular os salários de diferentes tipos de funcionários.
+Adicione métodos adicionais se necessário, como para calcular o salário anual de um funcionário.

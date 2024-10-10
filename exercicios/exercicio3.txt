@@ -1,15 +1,7 @@
-Exercício: Sistema de Funcionários
+Sistema de Pagamentos
 
-- Crie uma classe Funcionario que tenha atributos públicos para:
-    - nome e cargo
+- Crie uma classe abstrata chamada Pagamento com os métodos abstratos:
+    - processar_pagamento(): Método para processar o pagamento.
+    - cancelar_pagamento(): Método para cancelar o pagamento.
 
-- Atributo privado para o salário
-
-- Crie uma classe Departamento que pode conter vários funcionários
-- Classe Empresa que pode conter vários departamentos
-
-- Requisitos:
-    - Atributos privados para o salário
-    - Métodos públicos para acessar e modificar o salário
-    - Relação entre classes (uma empresa tem vários departamentos, 
-                             cada departamento tem vários funcionários)
+- Depois, crie classes concretas CartaoCredito e Boleto que herdem de Pagamento e implementem os métodos.
